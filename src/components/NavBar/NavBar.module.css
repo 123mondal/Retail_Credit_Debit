@@ -1,0 +1,42 @@
+.NavContainer {
+  list-style: none;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #00b8d4;
+  height: 40px;
+  overflow: hidden;
+}
+
+li {
+  margin: 10px;
+  display: inline;
+}
+.NavBrand {
+  cursor: default;
+  color: white;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+.NavBrand:hover {
+  color: white;
+  text-decoration: none;
+}
+.NavLink {
+  font-size: 18px;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+}
+.NavLink:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #0088a3;
+}
+
+.activeLink {
+  color: white;
+  background-color: #0088a3;
+}

@@ -1,0 +1,5 @@
+Cyan : {
+P - Simple = #00b8d4
+P - Light = #62ebff
+P - Dark = #0088a3
+}

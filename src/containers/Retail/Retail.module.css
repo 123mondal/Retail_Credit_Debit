@@ -1,0 +1,47 @@
+.Retail {
+}
+.Table {
+  font-size: 1.1rem;
+  width: 90%;
+  margin: 20px auto;
+  /* border-radius: 5px; */
+  border-collapse: collapse;
+}
+
+.TD {
+  border: 1px solid #0088a3;
+  text-align: left;
+  padding: 8px;
+}
+.TDCurrency {
+  border: 1px solid #0088a3;
+  text-align: right;
+  padding: 8px;
+}
+.TH {
+  background-color: #0088a3;
+  border: 1px solid #62ebff;
+  text-align: center;
+  color: white;
+  padding: 8px;
+}
+.TR {
+  transition: 300ms;
+}
+.TR:hover {
+  font-weight: bold;
+  background-color: rgb(226, 230, 230);
+}
+.TR:nth-child(even):hover {
+  font-weight: bold;
+  background-color: gainsboro;
+}
+.TR:nth-child(even) {
+  transition: 300ms;
+  background-color: #62ebff;
+}
+.TDSerial {
+  border: 1px solid #0088a3;
+  text-align: center;
+  padding: 8px;
+}

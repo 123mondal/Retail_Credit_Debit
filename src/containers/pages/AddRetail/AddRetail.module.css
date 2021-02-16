@@ -1,0 +1,38 @@
+.Login {
+  /* color: blueviolet; */
+  border-radius: 10px;
+  border: 1px solid #0088a3;
+  padding: 10px;
+  width: 400px;
+  margin: 50px auto;
+}
+.Label {
+  font-size: 1.2rem;
+  margin: 5px;
+  padding: 0px;
+}
+.InputIn {
+  border: 1px solid #0088a3;
+  padding: 3px;
+  font-size: x-large;
+  margin: 5px 0px;
+}
+.SubmitButton {
+  /* width: 50%; */
+  padding: 10px;
+  border: 1px solid #0088a3;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #00b8d4;
+  margin: 15px 0px;
+}
+.SubmitButton:hover {
+  background-color: #0088a3;
+}
+
+.LoginForm {
+  display: flex;
+  flex-flow: column;
+}
