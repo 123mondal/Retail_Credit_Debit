@@ -1,0 +1,48 @@
+.BillCell {
+  background-color: white;
+  text-align: center;
+  width: min-content;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.BillItem {
+  margin: 0px 10px;
+}
+
+.BillCellDelBtn {
+  margin: 0px 5px;
+  padding: 5px;
+  border: 1px solid #0088a3;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #00b8d4;
+  /* margin: 10px 10px; */
+}
+
+.BillCellDelBtn:hover {
+  border: 1px solid red;
+  background-color: red;
+}
+.BillCellEditBtn {
+  margin: 0px 5px;
+  padding: 5px;
+  border: 1px solid #0088a3;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #00b8d4;
+  /* margin: 10px 10px; */
+}
+
+.BillCellEditBtn:hover {
+  border: 1px solid yellow;
+  background-color: yellow;
+  color: black;
+}

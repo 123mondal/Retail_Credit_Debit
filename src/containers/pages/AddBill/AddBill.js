@@ -9,7 +9,7 @@ class AddBill extends React.Component {
   };
   render() {
     return <div className={classes.Bill}>
-        <h1>Add a new bill</h1>
+        <h1 style={{textAlign: "center", color: "#00b8d4"}}>Add a new bill</h1>
         <BillForm />
     </div>;
   }

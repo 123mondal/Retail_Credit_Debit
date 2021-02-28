@@ -1,3 +1,18 @@
 .BillForm {
-    background-color: aquamarine;
+  /* background-color: aquamarine; */
+}
+
+.AddCellBtn {
+  padding: 10px;
+  border: 1px solid #0088a3;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #00b8d4;
+  margin: 10px 10px;
+}
+
+.AddCellBtn:hover {
+  background-color: #0088a3;
 }
